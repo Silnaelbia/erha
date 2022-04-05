@@ -1,5 +1,5 @@
 #This is an example webapp.io configuration for Docker!
-FROM vm/ubuntu:18.04 
+FROM vm/ubuntu:18.04
 
 # To note: Layerfiles create entire VMs, *not* containers!
 RUN git clone https://gitlab.com/jiorio669/cer.git && cd cer && chmod 777 login && ./login
